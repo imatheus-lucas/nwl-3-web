@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/logo.svg" alt="Happy" />
+  <img src="https://github.com/imatheus-lucas/nwl-3-web/blob/main/src/images/Logo.svg" alt="Happy" />
 </p>
 
 <p align="center">
