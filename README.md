@@ -1,44 +1,94 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src=".github/logo.svg" alt="Happy" />
+</p>
 
-## Available Scripts
+<p align="center">
+  <b>Conecte pessoas a orfanatos e traga felicidade as crianças.</b>
+</p>
 
-In the project directory, you can run:
+<br />
 
-### `yarn start`
+<p align="center">
+  <a href="https://nodejs.org/en/" target="_blank">
+    <img alt="Node.js version" src="https://img.shields.io/badge/node-v12.18.4-brightgreen">
+  </a>
+  <a href="https://yarnpkg.com/" target="_blank">
+    <img alt="Yarn version" src="https://img.shields.io/badge/yarn-v1.22.4-blue%20">
+  </a>
+ 
+  <a href="https://rocketseat.com.br/" target="_blank">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2300c7c7">
+  </a>
+  <a href="LICENSE.md" target="_blank">
+    <img alt="LICENSE" src="https://img.shields.io/github/license/vitorserrano/task-manager?color=7159C1">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Conteúdo
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Sobre](#sobre)
+- [Documentação](#documentacao)
+- [Tecnologias](#tecnologias)
+- [Pré-requisitos](#pre-requisitos)
+- [Como usar](#como-usar)
+- [Como contibuir](#como-contribuir)
 
-### `yarn test`
+<a id="sobre"></a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :bookmark: Sobre
 
-### `yarn build`
+O <strong>Happy</strong> é uma aplicação Web e Mobile para que pessoas encontrem orfanatos perto de sua casa e leve mais felicidade para as crianças.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Essa aplicação foi construída na trilha <strong>OmniStack</strong> da <strong>Next Level Week 3.0</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+A ideia de criar uma aplicação voltada as crianças surgiu da coincidência da data do começo do evento cair no dia 12 de outubro, **dia das crianças**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## :rocket: Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<a id="pre-requisitos"></a>
+## :zap: Como usar
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Faça um clone desse repositório: `git clone https://github.com/vitorserrano/happy.git`
+- Instale as dependências: `yarn install` ou `npm install`
+- Inicie a aplicação:
 
-## Learn More
+  - Servidor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - Entre na pasta: `cd server`
+    - Rode o comando de inicialização: `yarn start` ou `npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - Web
+
+    - Entre na pasta: `cd web`
+    - Rode o comando de inicialização: `yarn start` ou `npm start`
+
+  - Mobile
+    - Entre na pasta: `cd web`
+    - Rode o comando de inicialização: `yarn start` ou `npm start`
+
+<a id="como-contribuir"></a>
+
+## :recycle: Como contribuir
+
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+<h4 align="center">
+    Feito com  by <a href="https://www.linkedin.com/in/vitor-serrano/" target="_blank">Matheus Lucas </a>
+</h4>
